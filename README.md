@@ -1,23 +1,33 @@
 # Air Traffic Analysis 2025/2026
 
-## Overview
-•	Over 125,000 real flight records were analyzed at airports, primarily in Europe, as a hobby to utilize my knowledge.
-•	Python with pandas was used for data cleaning and exploratory analysis.
-•	A schema was designed in MySQL, and reference queries were executed for later comparison with the data displayed in a Power BI view.
-•	The database was set up using Docker.
-•	A dashboard was created in Power BI with the data from the database, allowing for trend analysis and comparison of data for 2025/2026.
+
+## Summary
+- Over 125,000 real flight records at airports, primarily in Europe, were analyzed as a personal project to apply my knowledge.
+
+- Python and pandas were used for data cleaning and exploratory analysis.
+
+- A database was created and a schema designed in MySQL. Reference queries were then executed to compare the data with the data displayed in a Power BI view.
+
+- Docker was used to create a container for the database, storing the data extracted from IPNYB.
+
+- An executive dashboard was then created in Power BI using the database data to evaluate the collected data, enabling trend analysis and data comparison for 2025/2026.
 
 ## Findings
-• **330 active airports** across Europe
-• **Istanbul (LTFM)** ranked as the busiest airport in 2025
-• **Türkiye, Spain and Germany** had the highest air traffic 
-• **January 2026**, compared to January 2025, showed a decline.
+- As a first finding, there are more than 330 airports belonging to Europe in the extracted dataset.
+
+- As a second finding, Istanbul (LTFM) is the airport with the highest traffic in 2025, with more than 40,000 flights.
+
+- As a third finding, Turkey, Spain, and Germany are the three countries with the most registered flights.
+
+- As a fourth finding, there were fewer registered flights in January 2026 than in January 2025.
 
 
 ## Tech Stack
 
-## Tech Stack
-• Python, pandas, used for data cleaning and exploratory analysis.
-• MySQL, used for data storage and KPI queries.
-• Docker, used to create a container for the database.
-• Power BI, used to create a dashboard to present the results of the practical exercise.
+- The pandas library in Python was used to clean the data extracted from the dataset, which consisted of two CSV files. All the data was processed with these technologies to create a single, clean CSV file.
+
+- MySQL was used as the database for storing the previously processed data. Additionally, some KPI queries were performed to serve as a reference point after the executive dashboard was created.
+
+- Docker was used to create a container to host the database.
+
+- Finally, Power BI was used to create an executive dashboard that presented the results of the practical exercise.
