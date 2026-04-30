@@ -2,15 +2,20 @@
 
 
 ## Summary
-- Over 125,000 real flight records at airports, primarily in Europe, were analyzed as a personal project to apply my knowledge.
 
-- Python and pandas were used for data cleaning and exploratory analysis.
+-For this exercise, an analysis was created using over 125,000 real-world flight records from airports, with data extracted from "https://www.kaggle.com/datasets/nilesh2042/airport-traffic-dataset".
 
-- A database was created and a schema designed in MySQL. Reference queries were then executed to compare the data with the data displayed in a Power BI view.
+-The Anaconda Navigator environment was used, employing Jupyter to work within an .ipynb notebook.
 
-- Docker was used to create a container for the database, storing the data extracted from IPNYB.
+-Pandas in Python was used for data cleaning and exploratory analysis.
 
-- An executive dashboard was then created in Power BI using the database data to evaluate the collected data, enabling trend analysis and data comparison for 2025/2026.
+-A database was created and a schema designed in MySQL.
+
+-Subsequently, benchmark queries were executed to compare the data with that displayed in the Power BI executive dashboard.
+
+-Docker was used to create a container to host the database and store the data extracted from ipynb.
+
+-Next, an executive dashboard was created in Power BI using the database data to evaluate the information collected from the CSV files of the aforementioned data set, which allowed for trend analysis and data comparison for 2025/2026.
 
 ## Findings
 - As a first finding, there are more than 330 airports belonging to Europe in the extracted dataset.
@@ -23,6 +28,8 @@
 
 
 ## Tech Stack
+
+- The environment used was Anaconda Navigator, where Jupyter was used to work on a notebook.
 
 - The pandas library in Python was used to clean the data extracted from the dataset, which consisted of two CSV files. All the data was processed with these technologies to create a single, clean CSV file.
 
